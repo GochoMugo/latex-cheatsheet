@@ -6,6 +6,16 @@
 > This is a **quick** but **incomplete** reference. This is by design.
 
 
+## i need help
+
+So you need some help with your LaTeX? You can:
+
+1. Use the [table of contents](#toc) below to find the item of interest
+* Use the [resources](#res) to find more information
+* Use [Google](https://www.google.com) like everyone else
+* Head over to [StackOverflow](#http://stackoverflow.com) and read through [tagged questions](http://stackoverflow.com/questions/tagged/latex)
+
+
 <a name="toc"></a>
 ## table of contents:
 
@@ -29,7 +39,9 @@ An example of a minimal document would be:
 ```latex
 \documentclass{class}
 
-% this area is called the preamble
+% this area is called the "preamble"
+% the "class" in the \documentclass{} command above ⬆ must be
+% with a valid class name. See notes below for built-in classes.
 
 \begin{document}
 
@@ -37,6 +49,10 @@ An example of a minimal document would be:
 
 \end{document}
 ```
+
+* `\documentclass{class}` **must** be the first command in the LaTeX file
+* built-in document classes: `article`, `report`, `book`, `letter`, `slides`
+
 [⬆ table of contents](#toc)
 
 
