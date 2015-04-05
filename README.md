@@ -6,7 +6,23 @@
 > This is a **quick** but **incomplete** reference. This is by design.
 
 
-## minimal document (document structure)
+<a name="toc"></a>
+## table of contents:
+
+1. [document structure](#ds)
+* [comments](#comm)
+* [paragraphs](#para)
+* [new lines](#newl)
+* [lists](lists)
+* [mathematical expressions](#expr)
+* [images](#img)
+* [symbols](#sym)
+* [resources](#res)
+* [licensing](#lic)
+
+
+<a name="ds"></a>
+## document structure
 
 An example of a minimal document would be:
 
@@ -21,10 +37,12 @@ An example of a minimal document would be:
 
 \end{document}
 ```
+[⬆ table of contents](#toc)
 
 
 ## syntax:
 
+<a name="comm"></a>
 ### comments
 
 * ignored during compilation
@@ -32,8 +50,10 @@ An example of a minimal document would be:
 ```latex
 % anything after the % is ignored
 ```
+[⬆ table of contents](#toc)
 
 
+<a name="para"></a>
 ### paragraphs
 
 * leave one empty line between two sections of text
@@ -43,8 +63,10 @@ This will one paragraph
 
 And this another
 ```
+[⬆ table of contents](#toc)
 
 
+<a name="newl"></a>
 ### new lines
 
 * use `\\` at end of line
@@ -53,6 +75,7 @@ And this another
 This forces a\\
 new line
 ```
+[⬆ table of contents](#toc)
 
 
 ### text decorations:
@@ -75,7 +98,10 @@ new line
 \underline{underlined text}
 ```
 
+[⬆ table of contents](#toc)
 
+
+<a name="lists"></a>
 ### lists:
 
 #### unordered list
@@ -96,7 +122,10 @@ new line
 \end{enumerate}
 ```
 
+[⬆ table of contents](#toc)
 
+
+<a name="expr"></a>
 ### mathematical expressions:
 
 #### inline
@@ -140,7 +169,10 @@ A mathematical expression, such as $\frac{\pi}{2}$, can appear within a line
 \mathbb{R}
 ```
 
+[⬆ table of contents](#toc)
 
+
+<a name="img"></a>
 ### images
 
 * requires the .tex file be in the same location as the image during compilation
@@ -151,8 +183,10 @@ A mathematical expression, such as $\frac{\pi}{2}$, can appear within a line
 \caption{An optional caption goes here}
 \end{figure}
 ```
+[⬆ table of contents](#toc)
 
 
+<a name="sym"></a>
 ### symbols:
 
 
@@ -163,6 +197,9 @@ A mathematical expression, such as $\frac{\pi}{2}$, can appear within a line
 * ampersand: `\&`
 * pound (hashtag): `\#`
 * backslash: `\textbackslash`
+
+[⬆ table of contents](#toc)
+
 
 #### general mathematics
 
@@ -188,7 +225,10 @@ A mathematical expression, such as $\frac{\pi}{2}$, can appear within a line
 * logarithmn: `\log_{a}b`
 * natural logarithmn: `\ln(x)`
 
+[⬆ table of contents](#toc)
 
+
+<a name="res"></a>
 ## resources:
 
 ### readings
@@ -201,7 +241,10 @@ A mathematical expression, such as $\frac{\pi}{2}$, can appear within a line
 * [TexMaker](http://www.xm1math.net/texmaker/)
 * [ShareLatex](http://www.sharelatex.com/)
 
+[⬆ table of contents](#toc)
 
+
+<a name="lic"></a>
 ## licensing:
 
 __The MIT License (MIT)__
