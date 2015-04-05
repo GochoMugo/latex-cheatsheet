@@ -28,6 +28,7 @@ So you need some help with your LaTeX? You can:
 * [images](#img)
 * [symbols](#sym)
 * [resources](#res)
+* [todo list](#todo)
 * [licensing](#lic)
 
 
@@ -258,6 +259,14 @@ A mathematical expression, such as $\frac{\pi}{2}$, can appear within a line
 * [ShareLatex](http://www.sharelatex.com/)
 
 [⬆ table of contents](#toc)
+
+
+<a name="todo"></a>
+## todo
+
+* [ ] runnable code samples
+* [ ] display expected output of code sample
+* [ ] fun post on why you should Latex
 
 
 <a name="lic"></a>
