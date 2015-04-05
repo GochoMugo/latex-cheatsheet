@@ -13,7 +13,7 @@ So you need some help with your LaTeX? You can:
 1. Use the [table of contents](#toc) below to find the item of interest
 * Use the [resources](#res) to find more information
 * Use [Google](https://www.google.com) like everyone else
-* Head over to [StackOverflow](#http://stackoverflow.com) and read through [tagged questions](http://stackoverflow.com/questions/tagged/latex)
+* Head over to [StackOverflow](http://stackoverflow.com) and read through [tagged questions](http://stackoverflow.com/questions/tagged/latex)
 
 
 <a name="toc"></a>
