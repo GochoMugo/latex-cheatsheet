@@ -23,7 +23,7 @@ So you need some help with your LaTeX? You can:
 * [comments](#comm)
 * [paragraphs](#para)
 * [new lines](#newl)
-* [lists](lists)
+* [lists](#lists)
 * [mathematical expressions](#expr)
 * [images](#img)
 * [symbols](#sym)
@@ -192,7 +192,7 @@ A mathematical expression, such as $\frac{\pi}{2}$, can appear within a line
 <a name="img"></a>
 ### images
 
-* requires the .tex file be in the same location as the image during compilation
+* requires the latex file be in the same location as the image during compilation
 
 ```latex
 \begin{figure}
@@ -262,7 +262,7 @@ A mathematical expression, such as $\frac{\pi}{2}$, can appear within a line
 
 
 <a name="todo"></a>
-## todo
+## todo:
 
 * [ ] runnable code samples
 * [ ] display expected output of code sample
